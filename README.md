@@ -1,8 +1,8 @@
 Simple Web App
 ---------------
 
-Practice with using Node.js, Express.js, Mongo, Jade, Passport, Bcrypt
-Allows user authentication via local, Facebook, and Google
+- Practice with using Node.js, Express.js, Mongo, Jade, Passport, Bcrypt
+- Allows user authentication via local, Facebook, and Google
 
 Adapted from Sahat Yalkabov's [Hackathon Starter](https://github.com/sahat/hackathon-starter)
 
