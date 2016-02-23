@@ -25,18 +25,10 @@ describe('GET /signup', function() {
   });
 });
 
-describe('GET /api', function() {
+describe('GET /dashboard', function() {
   it('should return 200 OK', function(done) {
     request(app)
-      .get('/api')
-      .expect(200, done);
-  });
-});
-
-describe('GET /contact', function() {
-  it('should return 200 OK', function(done) {
-    request(app)
-      .get('/contact')
+      .get('/dashboard')
       .expect(200, done);
   });
 });
