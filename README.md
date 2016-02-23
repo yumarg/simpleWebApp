@@ -1,16 +1,24 @@
 Simple Web App
+---------------
 
 Practice with using Node.js, Express.js, Mongo, Jade, Passport, Bcrypt
+Allows user authentication via local, Facebook, and Google
 
-License
--------
+Adapted from Sahat Yalkabov's [Hackathon Starter](https://github.com/sahat/hackathon-starter)
 
-The MIT License (MIT)
+To Use:
+---------------
 
-Copyright (c) 2014-2016 Sahat Yalkabov
+```bash
+# Clone repository
+git clone https://github.com/yumarg/simpleWebApp.git localRepoName
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+# Change directory
+cd localRepoName
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+# Install NPM
+npm install
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+# Run on local machine (go to http://localhost:3000)
+node app.js
+```
